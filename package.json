@@ -1,0 +1,49 @@
+{
+  "name": "@coon-js/extjs-build",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Script to build extjs classic/modern along with themes to include in production/development/testing environments",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coon-js/extjs-build.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": "bin.js",
+  "keywords": [
+    "build",
+    "sencha",
+    "extjs",
+    "classic",
+    "modern",
+    "themes",
+    "testing",
+    "coon.js",
+    "coon-js",
+    "l8js",
+    "l8.js",
+    "l8",
+    "conjoon",
+    "siesta"
+  ],
+  "author": "Thorsten Suckow-Homberg <thorsten@suckow-homberg.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coon-js/extjs-build/issues"
+  },
+  "homepage": "https://github.com/coon-js/extjs-build#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@l8js/l8": "file:../../l8js/l8",
+    "@sencha/cmd": "^7.4.39",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "jest": "^27.0.4",
+    "jest-util": "^27.0.2",
+    "path": "^0.12.7",
+    "util": "^0.12.4"
+  }
+}
